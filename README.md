@@ -75,7 +75,7 @@ I thought that was an excellent plan of action! And here comes my muddling throu
 
 Luckily, we had pilot data from another project that I could use to test different plots and estimate the knees (where the plot slows down). During the summer (July and August), I worked really hard to create plots in various ways and (sort of failed but) tried to nail down a number on which we could base our decision. 
 
-Here is the [link]() to a folder where I put all of my notebooks (html files created with R markdown) in chronological order. 
+Here is the [link](https://github.com/DO-WON/Mercury/tree/main/Notebooks/) to a folder where I put all of my notebooks (html files created with R markdown) in chronological order. 
 
 ```diff
 + ADD LINKS TO CODES!
