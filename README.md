@@ -20,8 +20,30 @@ My first ever task as an RA was to review the key papers - [Allcott et al. (2020
 
 Another important set of task was to figure out the technical aspects of experiment - mostly using Twitter APIs to do things we need. 
 
+
+### Setting Up the Developer Account
+
+To use Twitter API, you should first set up a Twitter [developer account](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api). But don't be too quick! My team already had the Project with Basic Access, so I was invited to join. There were trials and errors even when first joining the team. 
+
+These are lessons I learned: 
+- You must "not" have a develop account set up for the Twitter account you want to invite. This is due to the fact that people who already have develop accounts are unable to join teams. Hence, make a new Twitter account, tell the team leader your Twitter handle, and wait for the invitation!
+- You will receive the invitation via email that you used when signing up for the new Twitter account. Click the invitation link, then follow the instructions, and you are done. But don't forget to make sure that you successfully joined the team (another lesson learned from my trial and error!).
+- Next, you have to create a standalone App with which you could experiment things. With our Basic access, there was a project limit of two apps, so your App have to be one of these two. Otherwise, your codes will not work!
+- After your App is all set, [generate keys and tokens](https://developer.twitter.com/en/docs/apps/overview) needed for using Twitter APIs. 
+- Another important lesson learned: You can find all you need from [Developer Platform](https://developer.twitter.com/en). However, don't completely trust the information on there because several changes have been made since Musk, and most of them may not be updated or will be updated with significant lag. The best way is to test the API to see if it still works. If it doesn't and you wrote your code correctly, it's very likely that changes made with the API is to blame, not you. 
+
+
+
 ### DMs
-- For instance, I checked whether automating sending DMs to experiment participants would be feasible using Twitter API. It was feasible, technically, but under assumption that all participants follow our study account (since sending DMs are allowed between mutual followers in most cases by setting). 
+
+Since following is basically the same as unfollowing in terms of pressing the same button, as a clever way to screen out those who potentially won't comply with the unfollowing treatment, we decided to make them follow our research team's account in the screening process. We could then invite only those who successfully followed our account back to the next survey, and those are likely to comply with 'unfollowing' certain low-quality accounts when instructed to do so. 
+
+Furthermore, if participants follow our study account, we will be able to send them DMs! Sending DMs can be used for another treatment arm or survey questionnaires that needs to be completed in real-time (rather than retrospectively). Also, we could monitor compliance throughout the treatment period and send automated DMs to participants who did not comply to see what the problems/issues are. 
+
+I checked whether automating sending DMs to experiment participants would be feasible using Twitter API. It was feasible, technically, but under assumption that all participants follow our study account (since sending DMs are allowed between mutual followers in most cases by setting). 
+
+
+
 
 ### Unfollowing 
 The study's main treatment was making some participants **'unfollow'** specific accounts on Twitter. 
@@ -80,6 +102,7 @@ Here is the [link](https://github.com/DO-WON/Mercury/tree/main/Notebooks/) to a 
 ```diff
 + ADD LINKS TO CODES!
 ```
+
 
 ### END OF THE AUGUST (AFTER I ARRIVED IN COLLEGE PARK)
 - Wrap up with the pilot data analysis
