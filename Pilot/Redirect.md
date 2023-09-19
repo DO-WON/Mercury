@@ -1,0 +1,3 @@
+# Redirect Page
+
+Hi, there! 
